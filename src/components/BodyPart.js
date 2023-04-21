@@ -18,7 +18,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
       gap: '47px'
     }}
     onClick={() => {
-      console.log("in the zaqabe")
+      console.log("in the zaqabe ")
       setBodyPart(item);
       window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
     }}
