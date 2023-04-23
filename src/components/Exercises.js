@@ -37,7 +37,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     window.scrollTo({ top: 1800, behavior: 'smooth' });
   };
 
- if (!currentExercises.length) return <loader />;
+ if (!currentExercises.length ) return <loader />;
 
   return (
     <Box id="exercises" 
