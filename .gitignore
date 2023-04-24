@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
