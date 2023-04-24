@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore Visual Studio files
-.vscode/
+# Visual Studio 2015/2017 cache/options directory
+.vs/
