@@ -8,7 +8,7 @@ import BodyPart from '../components/BodyPart'
 
 const Home = () => {
   const [bodyPart, setBodyPart] = useState('')
-  const [exercises, setExercises] = useState([])
+  const [exercises, setExercises] = useState([]) 
 
   return (
     <Box>
